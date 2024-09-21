@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.margen{
+    padding: 15px;
+}
+
+header{
+    text-align: center;
+}
+
+picture img{
+    width: 140px;
+}
+
+hr{
+    border-bottom: 4px gray solid;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  transition: all 0.5s;
+}
+
+.borde{
+    border-right: 4px gray solid;
+}
+
+nav a:hover{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: black;
+}
+
+
+.image{
+    display: inline-block;
+    margin-left: 70px;
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    object-fit: cover;
+}
+
+.slide{
+    width: 100%;
+    margin: auto;
+    height: 385px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%; /* vertically center the text */
+    left: 50%; /* horizontally center the text */
+    transform: translate(-50%, -50%); /* adjust for vertical and horizontal centering */
+    background-color: rgba(255, 255, 255, 0.5); /* white transparent background */
+    padding: 25px 35px; /* add some padding around the text */
+    color: #000; /* text color */
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .mensaje{
+    margin-top: 450px;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+  }
+
+  .secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .renglones{
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .renglones img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+
+  .renglones p{
+    margin-top: 25px;
+  }
+
+  .renglones a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 30px;
+    background-color: #ccc;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+  .final{
+    border-top: 15px #ccc solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    border-bottom: 15px #333232 solid;
+  }
+
+  .logo_final img{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redes{
+    padding: 10px 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .face{
+    width: 17px;
+    color: #333232;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .twit{
+    width: 25px;
+    color: #333232;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta{
+    width: 24px;
+    color: #333232;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }

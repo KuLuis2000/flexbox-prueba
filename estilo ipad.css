@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    body{
+        background-color: white;
+    }
+    .secciones{
+        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .text-overlay {
+        padding: 15px 25px;
+        font-size: 28px;
+        text-align: center;
+      }
+}

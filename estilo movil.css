@@ -1,0 +1,67 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    border-bottom: 4px gray solid;
+  }
+
+  .borde {
+    border-right: none;
+  }
+
+  nav a:hover {
+    background-color: black;
+  }
+
+  .image {
+    width: 100%;
+    height: 330px;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 35px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mensaje{
+    margin-top: 330px;
+  }
+
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+
+  .renglones {
+    width: 90%;
+  }
+
+  .final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+  }
+}
